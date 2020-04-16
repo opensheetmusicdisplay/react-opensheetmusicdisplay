@@ -9,7 +9,7 @@ npm install
 
 npm start
 ```
-![image](https://user-images.githubusercontent.com/33069673/79475489-05958480-8008-11ea-9011-2a7227515802.png)
+<img src="https://user-images.githubusercontent.com/33069673/79475489-05958480-8008-11ea-9011-2a7227515802.png" height="300">
 Right now only some properties are passed through to the library, such as ```drawTitle```, ```file``` and ```autoResize```.
 
 

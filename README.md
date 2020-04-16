@@ -2,7 +2,15 @@
 <!--img alt="Brought to you by PhonicScore" src="https://phonicscore.com/neu/wp-content/uploads/2018/06/phonicscore_brown.svg"/-->
 
 # OpenSheetMusicDisplay for React
-This repository holds a react component for OpenSheetMusicDisplay. Checkout the ```src/App.js``` file to see how to use it. Right now only some properties are passed through to the library, such as ```drawTitle```, ```file``` and ```autoResize```.
+This repository holds a react component for OpenSheetMusicDisplay. Checkout the ```src/App.js``` file to see how to use it.
+Navigate to the project root and do the following to check the demo on `localhost:3000`:
+```
+npm install
+
+npm start
+```
+![image](https://user-images.githubusercontent.com/33069673/79475489-05958480-8008-11ea-9011-2a7227515802.png)
+Right now only some properties are passed through to the library, such as ```drawTitle```, ```file``` and ```autoResize```.
 
 
 Brought to you by [PhonicScore](https://phonicscore.com/)

@@ -26,7 +26,7 @@
   "author": "Benjamin Giesinger",
   "license": "MIT",
   "dependencies": {
-    "opensheetmusicdisplay": "^0.6.6"
+    "opensheetmusicdisplay": "^0.7.5"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

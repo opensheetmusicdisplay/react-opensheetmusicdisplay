@@ -11,8 +11,8 @@ class OpenSheetMusicDisplay extends Component {
   
     setupOsmd() {
       const options = {
-        autoResize: this.props.autoResize ? this.props.autoResize : true,
-        drawTitle: this.props.drawTitle ? this.props.drawTitle : true,
+        autoResize: this.props.autoResize !== undefined ? this.props.autoResize : true,
+        drawTitle: this.props.drawTitle !== undefined ? this.props.drawTitle : true,
       }
       this.osmd = new OSMD(this.divRef.current, options);
       this.osmd.load(this.props.file).then(() => this.osmd.render());

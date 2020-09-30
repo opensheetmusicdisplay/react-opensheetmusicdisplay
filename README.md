@@ -11,7 +11,8 @@ npm install
 npm start
 ```
 <img src="https://user-images.githubusercontent.com/33069673/79475489-05958480-8008-11ea-9011-2a7227515802.png" height="300">
-Right now only some properties are passed through to the library, such as ```drawTitle```, ```file``` and ```autoResize```.
+
+Right now only some properties are passed through to the library, such as `drawTitle`, `file` and `autoResize`.
 
 
 Brought to you by [PhonicScore](https://phonicscore.com/)

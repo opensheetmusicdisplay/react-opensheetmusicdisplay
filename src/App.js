@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import OpenSheetMusicDisplay from './lib/OpenSheetMusicDisplay'
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Osmd from "./lib/Osmd";
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class App extends Component {
 
   handleClick(event) {
     const file = event.target.value;
-    this.setState(state => state.file = file);
+    this.setState((state) => (state.file = file));
   }
 
   render() {
@@ -23,10 +23,14 @@ class App extends Component {
           <h1 className="App-title">OpenSheetMusicDisplay in React</h1>
         </header>
         <select onChange={this.handleClick.bind(this)}>
-          <option value="MuzioClementi_SonatinaOpus36No1_Part2.xml">Muzio Clementi: Sonatina Opus 36 No1 Part2</option>
-          <option value="Beethoven_AnDieFerneGeliebte.xml">Beethoven: An Die FerneGeliebte</option>
+          <option value="MuzioClementi_SonatinaOpus36No1_Part2.xml">
+            Muzio Clementi: Sonatina Opus 36 No1 Part2
+          </option>
+          <option value="Beethoven_AnDieFerneGeliebte.xml">
+            Beethoven: An Die FerneGeliebte
+          </option>
         </select>
-        <OpenSheetMusicDisplay file={this.state.file} />
+        <Osmd file={this.state.file} />
       </div>
     );
   }

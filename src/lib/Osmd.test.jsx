@@ -1,5 +1,5 @@
 import React from "react";
-import OpenSheetMusicDisplay from "./OpenSheetMusicDisplay";
+import OpenSheetMusicDisplay from "./Osmd";
 import renderer from "react-test-renderer";
 
 describe("TextInput", () => {

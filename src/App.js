@@ -1,39 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Osmd from "./lib/Osmd";
+import sampleFile from "./assets/music/Beethoven_AnDieFerneGeliebte.xml";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    // Don't call this.setState() here!
-    this.state = { file: "MuzioClementi_SonatinaOpus36No1_Part2.xml" };
-  }
-
-  handleClick(event) {
-    const file = event.target.value;
-    this.setState((state) => (state.file = file));
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">OpenSheetMusicDisplay in React</h1>
-        </header>
-        <select onChange={this.handleClick.bind(this)}>
-          <option value="MuzioClementi_SonatinaOpus36No1_Part2.xml">
-            Muzio Clementi: Sonatina Opus 36 No1 Part2
-          </option>
-          <option value="Beethoven_AnDieFerneGeliebte.xml">
-            Beethoven: An Die FerneGeliebte
-          </option>
-        </select>
-        <Osmd file={this.state.file} />
-      </div>
-    );
-  }
-}
+export const App = () => {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1 className="App-title">OpenSheetMusicDisplay in React</h1>
+      </header>
+      <Osmd file={sampleFile} />
+    </div>
+  );
+};
 
 export default App;

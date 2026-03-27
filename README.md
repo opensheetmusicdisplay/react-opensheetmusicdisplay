@@ -1,7 +1,8 @@
 <!-- <img alt="OSMD logo" src="https://opensheetmusicdisplay.org/wp-content/uploads/sites/2/2021/02/OSMD_logo_box.svg" height="40"/> -->
 <!--img alt="Brought to you by PhonicScore" src="https://phonicscore.com/neu/wp-content/uploads/2018/06/phonicscore_brown.svg"/-->
 
-# <img alt="OSMD logo" align="center" src="https://opensheetmusicdisplay.org/wp-content/uploads/sites/2/2021/02/OSMD_logo_box.svg" height="40"/> React OSMD Component
+# <img alt="OSMD logo" align="center" height="40" src="https://github.com/opensheetmusicdisplay/opensheetmusicdisplay/assets/33069673/a83dc850-65c2-4c7a-8836-eb75cefc006f"/>React OSMD Component
+<!--# <img alt="OSMD logo" align="center" src="https://opensheetmusicdisplay.org/wp-content/uploads/sites/2/2021/02/OSMD_logo_box.svg" height="40"/> React OSMD Component-->
 <!-- # OpenSheetMusicDisplay for React -->
 This repository holds an example react component for OpenSheetMusicDisplay. Checkout the ```src/App.js``` file to see how to use it.<br>
 You may choose to implement OSMD as a component differently, but this should serve as a working example.<br>
